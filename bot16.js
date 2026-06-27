@@ -190,7 +190,7 @@ async function solveAntibot(html) {
     console.log('🤖 Solving anti-bot via OCR...');
     
     // Save HTML to local temp file
-    const tempFile = path.join(__dirname, 'temp_faucet.html');
+    const tempFile = path.join(__dirname, 'temp_faucet16.html');
     
     try {
         fs.writeFileSync(tempFile, html);
